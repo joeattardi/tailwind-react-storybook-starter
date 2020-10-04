@@ -1,7 +1,7 @@
 import React from 'react';
 
-export default function Button({ children }) {
+export default function Button({ label }) {
   return (
-    <button className="bg-teal-700 px-8 py-2 text-white rounded">{children}</button>
+    <button>{label}</button>
   );
 }

@@ -9,3 +9,4 @@ export default {
 const Template = args => <Button {...args}>Button</Button>;
 
 export const FirstStory = Template.bind({});
+FirstStory.args = { label: 'Button' };
